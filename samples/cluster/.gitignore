@@ -1,0 +1,4 @@
+*.dat
+cluster.eps
+cluster.pdf
+makefile.opt
