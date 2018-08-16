@@ -1,11 +1,10 @@
-Random Bit String Generator (RBS)
-===
+# Random Bit String Generator (RBS)
 
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
 This library generates a bit string whose bits are set randomly with an arbitral probability.
 
-# How to use
+## How to use
 
 Just include `randbit.hpp` and use it. The usage is
 
@@ -84,11 +83,11 @@ Probability p = 0.8
 11111111000111111111111011111111 28 bits
 ```
 
-# Application to one-dimensional bond-directed percolation
+## Application to one-dimensional bond-directed percolation
 
 For demonstration, we apply this library to implement a multi-spin coding (MSC) technique of the one-dimensional Bond-directed percolation (1d-BDP).
 
-## Cluster growth simulation
+### Cluster growth simulation
 
 The source code for the cluster growth simulation of 1d-BDP is in [samples/cluster](samples/cluster) folder.
 You can build and execute it as follow.
@@ -112,7 +111,7 @@ Then you will have the following graph.
 
 ![img/cluster.png](img/cluster.png)
 
-## Relaxation process simulation
+### Relaxation process simulation
 
 ```
 $ make
@@ -132,7 +131,7 @@ Then you will have the following graph.
 
 ![img/relaxation.png](img/relaxation.png)
 
-# How it works
+## How it works
 
 This library adopts the Poisson-OR method and the correction. First, the given probability p is approximated by pn with a finite digit in the binary notation.
 
@@ -166,6 +165,6 @@ The solid line denoted by "Expected cost" is the expected costs. The average num
 
 See our paper for details.
 
-# Reference
+## Reference
 
-"Fast algorithm for generating random bit strings and multi-spin coding for the directed percolation", H. Watanabe, S. Morita, S. Todo, and N. Kawashima, arXiv:XXXX.XXXXX
+"Fast algorithm for generating random bit strings and multi-spin coding for the directed percolation", H. Watanabe, S. Morita, S. Todo, and N. Kawashima, [arXiv:1808.05009](https://arxiv.org/abs/1808.05009)
