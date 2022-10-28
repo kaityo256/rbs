@@ -167,4 +167,9 @@ See our paper for details.
 
 ## Reference
 
-"Fast algorithm for generating random bit strings and multi-spin coding for the directed percolation", H. Watanabe, S. Morita, S. Todo, and N. Kawashima, [arXiv:1808.05009](https://arxiv.org/abs/1808.05009)
+Details are described in the following paper.
+
+* Fast algorithm for generating random bit strings and multi-spin coding for the directed percolation
+* H. Watanabe, S. Morita, S. Todo, and N. Kawashima
+* [J. Phys. Soc. Jpn. 88, 024004 (2019)](https://doi.org/10.7566/JPSJ.88.024004)
+* [arXiv:1808.05009](https://arxiv.org/abs/1808.05009)
